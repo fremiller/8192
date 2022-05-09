@@ -1,4 +1,4 @@
-const version = "1.07",
+const version = "1.10",
     preCache = "PRECACHE-" + version,
     cacheList = [
         "/",

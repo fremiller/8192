@@ -1,10 +1,10 @@
-# 2048
-A small clone of [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), based on [Saming's 2048](http://saming.fr/p/2048/) (also a clone).
+# 8192
+A small clone of [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), based on [Saming's 8192](http://saming.fr/p/8192/) (also a clone).
 
 Made just for fun and to demonstrate how easy it is to be a Progressive Web App (PWA). 
 
-[Play it here!](https://2048.love2dev.com/)
-[Read the Blog Post on How this App Was Upgraded to a Progressive Web App](https://love2dev.com/blog/2048-pwa/)
+[Play it here!](https://8192.love2dev.com/)
+[Read the Blog Post on How this App Was Upgraded to a Progressive Web App](https://love2dev.com/blog/8192-pwa/)
 
 
 # Progressive Web Application Development by Example
@@ -91,17 +91,17 @@ Other notable contributors:
 
 Many thanks to [rayhaanj](https://github.com/rayhaanj), [Mechazawa](https://github.com/Mechazawa), [grant](https://github.com/grant), [remram44](https://github.com/remram44) and [ghoullier](https://github.com/ghoullier) for the many other good contributions.
 
-## Read About 2048 PWA
+## Read About 8192 PWA
 
-[Read the Blog Post](https://love2dev.com/blog/2048-pwa/)
+[Read the Blog Post](https://love2dev.com/blog/8192-pwa/)
 
 ## Contributing
 Changes and improvements are more than welcome! Feel free to fork and open a pull request. Please make your changes in a specific branch and request to pull into `master`! If you can, please make sure the game fully works before sending the PR, as that will help speed up the process.
 
-You can find the same information in the [contributing guide.](https://github.com/gabrielecirulli/2048/blob/master/CONTRIBUTING.md)
+You can find the same information in the [contributing guide.](https://github.com/gabrielecirulli/8192/blob/master/CONTRIBUTING.md)
 
 ## License
-2048 is licensed under the [MIT license.](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
+8192 is licensed under the [MIT license.](https://github.com/gabrielecirulli/8192/blob/master/LICENSE.txt)
 
 ## Donations
 I made this in my spare time, and it's hosted on GitHub (which means I don't have any hosting costs), but if you enjoyed the game and feel like buying me coffee, you can donate at my BTC address: `1Ec6onfsQmoP9kkL3zkpB6c5sA4PVcXU2i`. Thank you very much!

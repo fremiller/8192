@@ -125,7 +125,7 @@ h1.title {
   background-color: #fff;
 }
 
-/* 2048 rules */
+/* 8192 rules */
 
 .scores-container {
   float: right;
@@ -138,8 +138,9 @@ h1.title {
   display: inline-block;
   background: #bbada0;
   padding: 15px 25px;
+  padding-bottom: 10px;
   font-size: 25px;
-  height: 25px;
+  /* height: 25px; */
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
@@ -588,7 +589,7 @@ hr {
 .tile.tile-2048 .tile-inner {
   color: #f9f6f2;
   background: #edc22e;
-  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+  /* box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); */
   font-size: 35px;
 }
 

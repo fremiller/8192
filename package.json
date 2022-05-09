@@ -1,7 +1,7 @@
 {
-    "name": "2048",
+    "name": "8192",
     "version": "1.0.0",
-    "description": "2048 Progressive Web App",
+    "description": "8192 Progressive Web App",
     "author": "Chris Love",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
