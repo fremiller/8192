@@ -1,18 +1,38 @@
-// Wait till the browser is ready to render the game (avoids glitches)
-window.requestAnimationFrame(function () {
-  new GameManager(4, KeyboardInputManager, HTMLActuator, LocalStorageManager);
+"use strict"; //https://love2dev.com/blog/javascript-strict-mode/
 
-  // TODO: This code is in need of a refactor (along with the rest)
-  var storage     = new LocalStorageManager;
-  var noticeClose = document.querySelector(".notice-close-button");
-  var notice      = document.querySelector(".app-notice");
-  if (storage.getNoticeClosed()) {
-    notice.parentNode.removeChild(notice);
-  } else {
-    noticeClose.addEventListener("click", function () {
-      notice.parentNode.removeChild(notice);
-      storage.setNoticeClosed(true);
-      ga("send", "event", "notice", "closed");
-    });
-  }
-});
+( function () {
+
+  // Wait till the browser is ready to render the game (avoids glitches)
+  window.requestAnimationFrame( function () {
+    new GameManager( 4, KeyboardInputManager, HTMLActuator, LocalStorageManager );
+  } );
+
+  addToHomescreen( {
+    autostart: true,
+    autoHide: 0,
+    logging: true,
+    minSessions: 2,
+    onShow: function () {
+      console.log( "showing" );
+    },
+    onInit: function () {
+      console.log( "initializing" );
+    },
+    onAdd: function () {
+      console.log( "adding" );
+    },
+    onInstall: function () {
+      console.log( "Installing" );
+    },
+    onCancel: function () {
+      console.log( "Cancelling" );
+    },
+    displayNextPrime: true,
+    customCriteria: true,
+    displayPace: 0,
+    customPrompt: {
+      src: "meta/icon-48x48.png"
+    }
+  } );
+
+} )();
