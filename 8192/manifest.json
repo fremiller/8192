@@ -53,7 +53,7 @@
   "scope": "/8192/",
   "display": "standalone",
   "background_color": "#fff",
-  "theme_color": "#000000",
+  "theme_color": "#fff",
   "orientation": "portrait",
   "lang": "en",
   "dir": "ltr"
