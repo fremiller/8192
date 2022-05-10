@@ -603,8 +603,8 @@ hr {
 
 .tile.tile-4096 .tile-inner {
   color: #f9f6f2;
-  background: #772eed;
-  box-shadow: 0 0 30px 10px rgba(118, 116, 243, 0.556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+  background: #7aed2e;
+  box-shadow: 0 0 30px 10px rgba(146, 243, 116, 0.556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
   font-size: 35px;
 }
 
@@ -616,8 +616,8 @@ hr {
 
 .tile.tile-8192 .tile-inner {
   color: #f9f6f2;
-  background: #7aed2e;
-  box-shadow: 0 0 30px 10px rgba(116, 243, 122, 0.556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+  background: #772eed;
+  box-shadow: 0 0 30px 10px rgba(129, 116, 243, 0.556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
   font-size: 35px;
 }
 
