@@ -1,7 +1,4 @@
-const basePath = "/www/";;
-if (window.location.protocol === "https") {
-    basePath = "/8192/"
-}
+const basePath = "/8192/";
 
 const version = "1.10",
     preCache = "PRECACHE-" + version,
