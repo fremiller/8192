@@ -1,19 +1,22 @@
+const basePath = "/www/";;
+if (window.location.protocol === "https") {
+    basePath = "/8192/"
+}
+
 const version = "1.10",
     preCache = "PRECACHE-" + version,
     cacheList = [
-        "/",
-        "style/main.css",
-        "style/bootstrap.min.css",
-        "style/animate.min.css",
-        "style/addtohomescreen.css",
-        "js/keyboard_input_manager.js",
-        "js/html_actuator.js",
-        "js/grid.js",
-        "js/tile.js",
-        "js/addtohomescreen.min.js",
-        "js/local_storage_manager.js",
-        "js/game_manager.js",
-        "js/application.js"
+        basePath + "/",
+        basePath + "style/main.css",
+        basePath + "style/bootstrap.min.css",
+        basePath + "style/animate.min.css",
+        basePath + "js/keyboard_input_manager.js",
+        basePath + "js/html_actuator.js",
+        basePath + "js/grid.js",
+        basePath + "js/tile.js",
+        basePath + "js/local_storage_manager.js",
+        basePath + "js/game_manager.js",
+        basePath + "js/application.js"
     ];
 
 /*  Service Worker Event Handlers */
