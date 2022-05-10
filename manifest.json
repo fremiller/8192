@@ -1,7 +1,7 @@
 {
   "name": "8192",
   "short_name": "8192",
-  "description": "This is a fork of the original 2048 web application source. It is upgraded to be a progressive web application and used as a reference application in the Packt Book - Progressive Web Applications By Example",
+  "description": "2048 but 8192",
   "icons": [
     {
       "src": "meta/icon-48x48.png",
@@ -49,9 +49,9 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/8192",
-  "scope": "/8192",
-  "display": "fullscreen",
+  "start_url": "/8192/",
+  "scope": "/8192/",
+  "display": "standalone",
   "background_color": "#fff",
   "theme_color": "#000000",
   "orientation": "portrait",

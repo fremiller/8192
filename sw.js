@@ -1,19 +1,19 @@
-const basePath = "/8192/";
+const basePath = "/8192";
 
 const version = "1.10",
     preCache = "PRECACHE-" + version,
     cacheList = [
         basePath + "/",
-        basePath + "style/main.css",
-        basePath + "style/bootstrap.min.css",
-        basePath + "style/animate.min.css",
-        basePath + "js/keyboard_input_manager.js",
-        basePath + "js/html_actuator.js",
-        basePath + "js/grid.js",
-        basePath + "js/tile.js",
-        basePath + "js/local_storage_manager.js",
-        basePath + "js/game_manager.js",
-        basePath + "js/application.js"
+        basePath + "/style/main.css",
+        basePath + "/style/bootstrap.min.css",
+        basePath + "/style/animate.min.css",
+        basePath + "/js/keyboard_input_manager.js",
+        basePath + "/js/html_actuator.js",
+        basePath + "/js/grid.js",
+        basePath + "/js/tile.js",
+        basePath + "/js/local_storage_manager.js",
+        basePath + "/js/game_manager.js",
+        basePath + "/js/application.js"
     ];
 
 /*  Service Worker Event Handlers */
