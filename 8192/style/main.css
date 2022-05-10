@@ -11,10 +11,6 @@ body {
   overscroll-behavior: contain;
 }
 
-body {
-  padding: 80px 0;
-}
-
 h1.title {
   font-size: 80px;
   font-weight: bold;
@@ -208,6 +204,18 @@ hr {
 .container {
   width: 500px;
   margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+}
+
+.game-swipepad {
+  flex: 0 1 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 @-webkit-keyframes fade-in {
@@ -797,6 +805,7 @@ hr {
     width: 280px;
     margin: 0 auto;
     padding: 0;
+    margin-top: 30px;
   }
 
   .score-container,
