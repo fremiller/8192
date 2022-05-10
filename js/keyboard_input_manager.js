@@ -96,9 +96,34 @@ KeyboardInputManager.prototype.listen = function () {
 
   gameContainer.addEventListener(this.eventTouchmove, function (event) {
     event.preventDefault();
+    if (!touchStartClientX || !touchStartClientY){
+      return;
+    }
+
+    if (window.navigator.msPointerEnabled) {
+      touchEndClientX = event.pageX;
+      touchEndClientY = event.pageY;
+    } else {
+      touchEndClientX = event.changedTouches[0].clientX;
+      touchEndClientY = event.changedTouches[0].clientY;
+    }
+
+    var dx = touchEndClientX - touchStartClientX;
+    var absDx = Math.abs(dx);
+
+    var dy = touchEndClientY - touchStartClientY;
+    var absDy = Math.abs(dy);
+
+    if (Math.max(absDx, absDy) > 10) {
+      // (right : left) : (down : up)
+      self.emit("move", absDx > absDy ? (dx > 0 ? 1 : 3) : (dy > 0 ? 2 : 0));
+      touchStartClientX = undefined;
+      touchStartClientY = undefined;
+    }
   });
 
   gameContainer.addEventListener(this.eventTouchend, function (event) {
+    return; // disabled
     if ((!window.navigator.msPointerEnabled && event.touches.length > 0) ||
         event.targetTouches.length > 0) {
       return; // Ignore if still touching with one or more fingers
