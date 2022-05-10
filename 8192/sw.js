@@ -1,6 +1,6 @@
 const basePath = "/8192";
 
-const version = "1.11",
+const version = "1.12",
     preCache = "PRECACHE-" + version,
     cacheList = [
         basePath + "/",
