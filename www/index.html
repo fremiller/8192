@@ -193,7 +193,7 @@
   <script>
     if ( "serviceWorker" in navigator ) {
 
-      navigator.serviceWorker.register( "sw.js", {scope: "/8192/"} )
+      navigator.serviceWorker.register( "/8192/sw.js", {scope: "/8192/"} )
         .then( function ( registration ) { // Registration was successful
 
           console.log( "ServiceWorker registration successful with scope: ", registration.scope );
